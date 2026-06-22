@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agnes Njoroge - AI & ML Portfolio</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+            max-width: 700px;
+            margin: 50px auto;
+            padding: 0 20px;
+            line-height: 1.6;
+            color: #24292e;
+            background-color: #fafbfc;
+        }
+        h1, h2, h3 {
+            color: #24292e;
+        }
+        h1 {
+            border-bottom: 2px solid #0366d6;
+            padding-bottom: 10px;
+            font-size: 2rem;
+            margin-bottom: 5px;
+        }
+        .subtitle {
+            font-size: 1.1rem;
+            color: #586069;
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 35px;
+            border-bottom: 1px solid #e1e4e8;
+            padding-bottom: 5px;
+        }
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .btn-resume {
+            display: inline-block;
+            background-color: #0366d6;
+            color: white;
+            padding: 8px 16px;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        .btn-resume:hover {
+            background-color: #0255b3;
+            text-decoration: none;
+            color: white;
+        }
+        .skills-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        .skills-category h4 {
+            margin: 0 0 5px 0;
+            color: #0366d6;
+        }
+        .skills-category p {
+            margin: 0;
+            font-size: 0.95rem;
+        }
+        .project-card {
+            background: #fff;
+            border: 1px solid #e1e4e8;
+            border-radius: 6px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        .project-card h3 {
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+        footer {
+            margin-top: 60px;
+            padding-top: 20px;
+            border-top: 1px solid #e1e4e8;
+            font-size: 0.9rem;
+            color: #586069;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Agnes Njoroge</h1>
+    <p class="subtitle">AI Student & Aspiring Machine Learning Engineer</p>
+
+    <div class="section">
+        <h2>About Me</h2>
+        <p>I'm a student currently studying <strong>Artificial Intelligence</strong>. I am deeply interested in <strong>Machine Learning</strong>, data analysis, and building intelligent systems that can extract insights from complex datasets and solve real-world problems.</p>
+        <!-- Change the # to your actual Google Drive or Dropbox resume link later -->
+        <a href="#" class="btn-resume" target="_blank">📄 View My Resume</a>
+    </div>
+
+    <div class="section">
+        <h2>Skills & Tools</h2>
+        <div class="skills-container">
+            <div class="skills-category">
+                <h4>Languages</h4>
+                <p>Python, SQL, HTML/CSS</p>
+            </div>
+            <div class="skills-category">
+                <h4>AI & ML Libraries</h4>
+                <p>Pandas, NumPy, Scikit-Learn</p>
+            </div>
+            <div class="skills-category">
+                <h4>Tools & Platforms</h4>
+                <p>Git, GitHub, Jupyter Notebooks, Google Colab</p>
+            </div>
+            <div class="skills-category">
+                <h4>Core Concepts</h4>
+                <p>Data Cleaning, Exploratory Data Analysis (EDA), Predictive Modeling</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Projects</h2>
+        
+        <div class="project-card">
+            <h3><a href="#" target="_blank">Predictive Modeling Project</a></h3>
+            <p>A machine learning project built with Python and Scikit-Learn to analyze a dataset and predict outcomes. Cleaned data, performed EDA, and trained a regression/classification model.</p>
+        </div>
+
+        <div class="project-card">
+            <h3><a href="#" target="_blank">Personal Portfolio</a></h3>
+            <p>This very website! Built using HTML and CSS to showcase my skills, AI/ML learning journey, and projects.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Let's Connect</h2>
+        <p>Feel free to reach out or check out my work across the web:</p>
+        <ul>
+            <li><strong>GitHub:</strong> <a href="https://github.com/your-username" target="_blank">@your-username</a></li>
+            <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/agnes-njoroge" target="_blank">Agnes Njoroge</a></li>
+            <!-- Optional profiles common in ML -->
+            <li><strong>Kaggle:</strong> <a href="https://kaggle.com/your-username" target="_blank">Kaggle Profile</a></li> 
+            <li><strong>Email:</strong> <a href="mailto:your.email@example.com">your.email@example.com</a></li>
+        </ul>
+    </div>
+
+    <footer>
+        <p>© 2026 Agnes Njoroge. Built with HTML & CSS.</p>
+    </footer>
+</body>
+</html>
